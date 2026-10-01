@@ -354,5 +354,5 @@ Rujukan pelengkap yang dikutip oleh sumber-sumber di atas dan layak dibaca langs
 ---
 
 ## Lisensi
-GNU GPL V3
+GPL-3.0 license
 
