@@ -188,8 +188,8 @@ Hasil sebaiknya dibaca sebagai **tren dan arah penyesuaian**, bukan angka absolu
 1. Salin (*clone*) repositori dan masuk ke foldernya:
 
    ```bash
-   git clone https://github.com/<username>/<nama-repo>.git
-   cd <nama-repo>
+   git clone https://github.com/YD1RUH/BikeFit.git
+   cd BikeFit
    ```
 
 2. (Disarankan) Buat *virtual environment*:
@@ -203,20 +203,13 @@ Hasil sebaiknya dibaca sebagai **tren dan arah penyesuaian**, bukan angka absolu
    source .venv/bin/activate
    ```
 
-3. Pasang dependensi:
+3. Install dependensi:
 
    ```bash
    pip install --upgrade dearpygui opencv-python mediapipe numpy
    ```
 
-   Atau simpan berikut sebagai `requirements.txt`, lalu jalankan `pip install -r requirements.txt`:
-
-   ```text
-   dearpygui
-   opencv-python
-   mediapipe>=0.10
-   numpy
-   ```
+   Atau menggunakan `requirements.txt`, dengan  menjalankan `pip install -r requirements.txt`:
 
 4. Jalankan aplikasi:
 
