@@ -2,6 +2,8 @@
 
 Aplikasi desktop untuk menganalisis posisi pesepeda (*bike fitting*) dari **video atau webcam**, menggunakan estimasi pose berbasis kecerdasan buatan. Aplikasi menampilkan **parameter yang perlu diperbaiki, rekomendasi penyesuaian, dan skor 0-100** dari tiga sudut pandang: samping, depan, dan belakang.
 
+<img src="https://github.com/YD1RUH/BikeFit/blob/main/sample.gif?raw=true" alt="Example using Video" width="100%"/>
+
 Dibangun dengan **Python 3**, **DearPyGui**, **OpenCV**, dan **MediaPipe Pose Landmarker**.
 
 > **Penting:** aplikasi ini adalah alat bantu estimasi berbasis kamera 2D, bukan alat medis dan bukan pengganti bike fitter atau fisioterapis profesional. Lihat bagian [Dasar Ilmiah dan Keterbatasan](#dasar-ilmiah-dan-keterbatasan).
